@@ -18,7 +18,7 @@
       <div class="main">
          <div class="col-md-6 col-sm-12">
             <div class="login-form">
-               <form asp-controller="Login" asp-action="Logar" method="post">
+               <form asp-controller="Login" asp-action="Logar" method="post" data-ajax="true" data-ajax-method="post" data-ajax-failure="Falha">
                   <div class="form-group">
                      <label>Nome de usuário</label>
                      <input type="text" name="username" class="form-control" placeholder="HomemDeFerro">
