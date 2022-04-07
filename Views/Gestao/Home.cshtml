@@ -1,0 +1,41 @@
+@using System.IO
+@model IEnumerable<MVChallenge.Models.Evento>
+@{
+    Layout = "_LayoutAdmin";
+
+}
+<link rel="stylesheet" href="~/css/Login.css">
+<h2>Bem-vindo, user</h2>
+<hr>
+@foreach (var Evento in Model)
+{
+    <link rel="stylesheet" type="~/css/style.css" href="theme.css">
+    <tr>
+    <div class = "Evento">
+        <th>Evento: <td>@Evento.evento</td></th>
+        <br>
+        <th>Capacidade: <td>@Evento.Capacidade</td></th>
+        <br>
+        <th>Ingressos restantes: <td>@Evento.Capacidade</td></th>
+        <br>
+        <th>Data: <td>@Evento.Data</td></th>
+        <br>
+        <th>Valor do Ingresso: <td>R$@Evento.ValorIngresso</td></th>
+        <br>
+        <th>Casa Show: <td>@Evento.CasaShow.Nome</td></th>
+        <br>
+    </div>
+        <td>
+            <div class="Imagem">
+            <img src="~/Imagens/@Evento.Estilo.ImagemCaminho" 
+               alt="@Evento.Estilo.EstiloMusical" 
+                 width= "300";
+                   height= "250";/>
+            </div>
+        </td>
+        <br>
+         <a class="btn btn-black" href="/Gestao/ComprarEvento/@Evento.Id">Comprar</a>
+        <hr>
+    </tr>
+
+}

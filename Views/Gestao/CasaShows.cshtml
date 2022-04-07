@@ -1,0 +1,46 @@
+@model IEnumerable<MVChallenge.Models.CasaShow>
+@{
+    Layout = "_LayoutAdmin";
+}
+
+<script>
+    $(document).ready( function () {
+      $('#casaShows').DataTable();
+      "info": false
+    } );
+</script> 
+
+<h2>Casa de Show</h2>
+<hr>
+<a asp-action="NovaCasaShow" asp-controller="Gestao" class="btn btn-success">Criar nova Casa de Show</a>
+<hr/>
+
+ <table id="casaShows" class="table table-striped table bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Endereco</th>
+
+        </tr>
+    </thead>
+    <tbody>
+         @foreach (var casaShows in Model)
+        {
+            <tr>
+                <td>@casaShows.Id</td>
+                <td>@casaShows.Nome</td>
+                <td>@casaShows.Endereco</td>
+                
+                <td>
+                    <a class="btn btn-primary" href="/Gestao/EditarCasaShows/@casaShows.Id">Editar</a>
+                    
+                    <form asp-action="Deletar" asp-controller="CasaShows" style="display: inline;">
+                        <input type="hidden" name="id" id="id" value="@casaShows.Id">
+                        <button class="btn btn-danger">Deletar</button>
+                    </form>
+                </td> 
+            </tr>
+        }
+    </tbody>
+</table> 

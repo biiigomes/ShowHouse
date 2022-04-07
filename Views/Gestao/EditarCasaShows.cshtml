@@ -1,0 +1,19 @@
+@model mvc_desafio_master.DTO.CasaShowDTO
+@{
+    Layout = "_LayoutAdmin";
+}
+<h3>Editar a Casa de Show</h3>
+<hr>
+<form class="form-horizontal" asp-controller="CasaShows" asp-action="Atualizar" method="POST">
+    <input type="hidden" asp-for="Id">
+    <label asp-for="Nome">Nome: </label>
+    <br>
+    <input type="text" asp-for="Nome" class="form-control"><br>
+    <span asp-validation-for="Nome"></span>
+    <br>
+    <label asp-for="Endereco">Endereço: </label>
+    <input type="text" asp-for="Endereco" class="form-control"><br>
+    <span asp-validation-for="Endereco"></span>
+    <br>
+    <button class="btn btn-success">Atualizar</button>
+</form>

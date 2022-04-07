@@ -1,0 +1,37 @@
+@model mvc_desafio_master.Models.Login
+@{
+    ViewData["Title"] = "Login";
+}
+
+<link rel="stylesheet" href="~/css/Login.css">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="sidenav">
+         <div class="login-main-text">
+            <h2>Bem-vindo à pagina de login do site Melodia da Vida</h2>
+            <p>É novo por aqui? Cadastre-se</p>
+         </div>
+      </div>
+      <div class="main">
+         <div class="col-md-6 col-sm-12">
+            <div class="login-form">
+               <form asp-controller="Login" asp-action="Logar" method="post">
+                  <div class="form-group">
+                     <label>Nome de usuário</label>
+                     <input type="text" name="username" class="form-control" placeholder="HomemDeFerro">
+                  </div>
+                  <div class="form-group">
+                     <label>Senha</label>
+                     <input type="password" name="senha" class="form-control" placeholder="Playboyzinho">
+                  </div>
+                  <button type="submit" class="btn btn-black">Login</button>
+                </form>
+                <form asp-controller="Login" asp-action="Cadastrar" method="post">
+                  <button type="submit" class="btn btn-secondary">Cadastrar</button>
+                </form>
+            </div>
+         </div>
+      </div>

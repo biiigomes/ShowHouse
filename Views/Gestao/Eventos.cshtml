@@ -1,0 +1,52 @@
+@model IEnumerable<MVChallenge.Models.Evento>
+@{
+    Layout = "_LayoutAdmin";
+}
+
+<h2>Evento</h2>
+<hr>
+<a asp-action="NovoEvento" asp-controller="Gestao" class="btn btn-success">Criar um novo evento</a>
+<hr/>
+
+<script>
+    $(document).ready( function () {
+      $('#Eventos').DataTable();
+      "info": false
+    } );
+</script>
+
+<table id="Eventos" class="table table-striped table bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Evento</th>
+            <th>Capacidade</th>
+            <th>Data</th>
+            <th>Preço do ingresso</th>
+            <th>Casa de Show</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+       @foreach (var Eventos in Model)
+        { 
+            <tr>
+                <td>@Eventos.Id</td>
+                <td>@Eventos.evento</td>
+                <td>@Eventos.Capacidade</td>
+                <td>@Html.DisplayFor(modelItem => Eventos.Data)</td>
+                <td>R$@Eventos.ValorIngresso</td>
+                <td>@Eventos.CasaShow.Nome</td>
+                
+                <td>
+                    <a class="btn btn-primary" href="/Gestao/EditarEventos/@Eventos.Id">Editar</a>
+                    
+                    <form asp-action="Deletar" asp-controller="Eventos" style="display: inline;">
+                        <input type="hidden" name="id" id="id" value="@Eventos.Id">
+                        <button class="btn btn-danger">Deletar</button>
+                    </form>
+                </td> 
+            </tr>
+        }
+    </tbody>
+</table>
