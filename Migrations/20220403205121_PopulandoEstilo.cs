@@ -10,6 +10,7 @@ namespace MVChallenge.Migrations
             mb.Sql("INSERT INTO Estilos(EstiloMusical, ImagemCaminho, Status) VALUES('Pop', 'pop.jpg', 1)");
             mb.Sql("INSERT INTO Estilos(EstiloMusical, ImagemCaminho, Status) VALUES('Rock', 'rock.jpg', 1)");
             mb.Sql("INSERT INTO Estilos(EstiloMusical, ImagemCaminho, Status) VALUES('Sertanejo', 'sertanejo.jpg', 1)");
+            mb.Sql("INSERT INTO Estilos(EstiloMusical, ImagemCaminho, Status) VALUES('Disco', 'disco.jpg', 1)");
         }
 
         protected override void Down(MigrationBuilder mb)
