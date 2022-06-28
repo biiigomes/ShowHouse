@@ -17,3 +17,5 @@ C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.IoC\obj\Debu
 C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.IoC\obj\Debug\net6.0\refint\ShowHouse.IoC.dll
 C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.IoC\obj\Debug\net6.0\ShowHouse.IoC.pdb
 C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.IoC\obj\Debug\net6.0\ref\ShowHouse.IoC.dll
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.IoC\bin\Debug\net6.0\ShowHouse.IoC.runtimeconfig.json
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.IoC\obj\Debug\net6.0\ShowHouse.IoC.genruntimeconfig.cache

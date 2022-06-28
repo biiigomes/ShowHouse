@@ -6,10 +6,10 @@ namespace ShowHouse.Domain.Entities
 {
     public sealed class ShowHouseEvent : Entity
     {
-        public string? Name {get; private set;}
-        public string? Address {get; private set;}
-        public bool? Status {get; private set;}
-        public ICollection<Event>? Events {get; set;}
+        public string Name {get; private set;}
+        public string Address {get; private set;}
+        public bool Status {get; private set;}
+        public ICollection<Event> Events {get; set;}
         public ShowHouseEvent(string name, string address, bool status)
         {
             ValidateDomain(name, address, status);

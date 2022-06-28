@@ -6,15 +6,15 @@ namespace ShowHouse.Domain.Entities
 {
     public sealed class Event : Entity 
     {
-        public string? Name {get; private set;}
-        public int? Capacity{get; private set;}
-        public string? Date {get; private set;}
-        public double? TicketValue{get; private set;}
-        public int? StyleId {get; private set;}
-        public Style? Style {get; set;}
-        public int? ShowHouseId {get; set;}
-        public ShowHouseEvent? ShowHouse {get; set;}
-        public bool? Status {get; set;}
+        public string Name {get; private set;}
+        public int Capacity{get; private set;}
+        public string Date {get; private set;}
+        public double TicketValue{get; private set;}
+        public int StyleId {get; private set;}
+        public Style Style {get; set;}
+        public int ShowHouseId {get; set;}
+        public ShowHouseEvent ShowHouse {get; set;}
+        public bool Status {get; set;}
 
         public Event(string name, int capacity, string date, double ticketValue, bool status){
             ValidateDomain(name, capacity, date, ticketValue, status);

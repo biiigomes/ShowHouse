@@ -232,6 +232,7 @@
       "ShowHouse.Data/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.6",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.6",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.1",
           "ShowHouse.Domain": "1.0.0"
         },
