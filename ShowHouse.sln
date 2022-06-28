@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Showuse.Domain", "ShowHouse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowHouse.IoC", "ShowHouse.IoC\ShowHouse.IoC.csproj", "{D587646E-A986-43B9-B9F4-FE1F4F7F8C35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVChallenge", "ShowHouse.MVC\MVChallenge.csproj", "{D63675EA-7A81-4110-93A2-5B449C3B1ACD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVChallenge", "ShowHouse.MVC\ShowHouse.MVC.csproj", "{D63675EA-7A81-4110-93A2-5B449C3B1ACD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowHouse.Domain.Tests", "ShowHouse.Domain.Tests\ShowHouse.Domain.Tests.csproj", "{DED0C1B5-39D5-4D88-BEB9-49F75D09F597}"
 EndProject

@@ -1,10 +1,4 @@
-﻿function Falha(data){
-  Swal.fire({
-    title: 'Deu ruim!',
-    text: msg,
-    imageUrl: '~/Imagens/acessonegado.jpg',
-    imageWidth: 200,
-    imageHeight: 200,
-    imageAlt: 'Custom image',
-  })
-}
+﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+// for details on configuring this project to bundle and minify static web assets.
+
+// Write your JavaScript code.

@@ -1,5 +1,5 @@
 using FluentAssertions;
-using MVChallenge.ShowHouse.Domain.Entities;
+using ShowHouse.Domain.Entities;
 
 namespace ShowHouse.Domain.Tests
 {

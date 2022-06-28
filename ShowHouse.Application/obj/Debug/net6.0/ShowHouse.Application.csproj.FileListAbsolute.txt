@@ -1,0 +1,15 @@
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Application\bin\Debug\net6.0\ShowHouse.Application.deps.json
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Application\bin\Debug\net6.0\ShowHouse.Application.dll
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Application\bin\Debug\net6.0\ShowHouse.Application.pdb
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Application\bin\Debug\net6.0\ShowHouse.Domain.dll
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Application\bin\Debug\net6.0\ShowHouse.Domain.pdb
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Application\obj\Debug\net6.0\ShowHouse.Application.csproj.AssemblyReference.cache
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Application\obj\Debug\net6.0\ShowHouse.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Application\obj\Debug\net6.0\ShowHouse.Application.AssemblyInfoInputs.cache
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Application\obj\Debug\net6.0\ShowHouse.Application.AssemblyInfo.cs
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Application\obj\Debug\net6.0\ShowHouse.Application.csproj.CoreCompileInputs.cache
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Application\obj\Debug\net6.0\ShowHouse.Application.csproj.CopyComplete
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Application\obj\Debug\net6.0\ShowHouse.Application.dll
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Application\obj\Debug\net6.0\refint\ShowHouse.Application.dll
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Application\obj\Debug\net6.0\ShowHouse.Application.pdb
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Application\obj\Debug\net6.0\ref\ShowHouse.Application.dll

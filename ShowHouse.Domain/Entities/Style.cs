@@ -1,14 +1,14 @@
 using ShowHouse.Domain.Validation;
 using ShowHouse.Domain.Entities;
 
-namespace MVChallenge.ShowHouse.Domain.Entities
+namespace ShowHouse.Domain.Entities
 {
     public sealed class Style : Entity
     {
-        public string MusicalStyle{get; private set;}
-        public string ImagePath {get; private set;}
-        public bool Status{get; private set;}
-
+        public string? MusicalStyle{get; private set;}
+        public string? ImagePath {get; private set;}
+        public bool? Status{get; private set;}
+        public ICollection<Event>? Events {get; set;}
         public Style(string musicalStyle, string imagePath, bool status){
             ValidateDomain(musicalStyle, imagePath, status);
         }

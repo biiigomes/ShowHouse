@@ -1,0 +1,17 @@
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\bin\Debug\net6.0\ShowHouse.Data.deps.json
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\bin\Debug\net6.0\ShowHouse.Data.dll
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\bin\Debug\net6.0\ShowHouse.Data.pdb
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\bin\Debug\net6.0\ShowHouse.Domain.dll
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\bin\Debug\net6.0\ShowHouse.Domain.pdb
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\obj\Debug\net6.0\ShowHouse.Data.csproj.AssemblyReference.cache
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\obj\Debug\net6.0\ShowHouse.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\obj\Debug\net6.0\ShowHouse.Data.AssemblyInfoInputs.cache
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\obj\Debug\net6.0\ShowHouse.Data.AssemblyInfo.cs
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\obj\Debug\net6.0\ShowHouse.Data.csproj.CoreCompileInputs.cache
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\obj\Debug\net6.0\ShowHouse.Data.csproj.CopyComplete
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\obj\Debug\net6.0\ShowHouse.Data.dll
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\obj\Debug\net6.0\refint\ShowHouse.Data.dll
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\obj\Debug\net6.0\ShowHouse.Data.pdb
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\obj\Debug\net6.0\ref\ShowHouse.Data.dll
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\bin\Debug\net6.0\ShowHouse.Data.runtimeconfig.json
+C:\Users\badf\My Private Documents\Desafios\MVC\ShowHouse\ShowHouse.Data\obj\Debug\net6.0\ShowHouse.Data.genruntimeconfig.cache
