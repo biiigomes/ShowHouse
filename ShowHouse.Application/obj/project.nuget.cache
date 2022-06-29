@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UQpxwbl3Hu6NtdI/nWr/YbXE6X/6b64OmpPgFwiFvdsx/RigHOZhiYdR5saFGuut5Y4fNJCSeuSZzFV4IWvF7A==",
+  "dgSpecHash": "gHe+JovZIrg+28mR8gNhz38jtYyfNw3+F8wVlndkGQLX46ZZSCIysEpTTO+fIZBRs6EUyufshTP2lq3WDwggCA==",
   "success": true,
   "projectFilePath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Application\\ShowHouse.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\badf\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\badf\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

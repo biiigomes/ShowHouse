@@ -1,6 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ShowHouse.Application.Interfaces;
+using ShowHouse.Application.Mapping;
+using ShowHouse.Application.Services;
 using ShowHouse.Data.Context;
 using ShowHouse.Data.Context.Repositories;
 using ShowHouse.Domain.Interfaces;
@@ -17,6 +20,11 @@ namespace ShowHouse.IoC
 
             services.AddScoped<IShowHouseEventRepository, ShowHouseRepository>();
             services.AddScoped<IEventRepository, EventRepository>();
+
+            services.AddScoped<IShowHouseEventService, ShowHouseEventService>();
+            services.AddScoped<IEventService, EventService>();
+
+            services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
             return services; 
         }

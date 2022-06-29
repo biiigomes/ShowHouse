@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "gX7RkzYuMh5q+xxPo3px2HLfUetBPpVm8nsyL+dbGfyZRoGwLwrNnW64mDi+1SolhTxoUlQfOeAxRQLPmzZ/8w==",
+  "dgSpecHash": "yCC1cVnaTtLaTDttTAISO5j1qT+hxW2q9bbCo8sC8I+doY+77EupeDyfXVfPOoVQxmlUgB0ovIG+wXllsYCLgw==",
   "success": true,
   "projectFilePath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.MVC\\ShowHouse.MVC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\badf\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\badf\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\badf\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\badf\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.6\\microsoft.aspnetcore.cryptography.internal.6.0.6.nupkg.sha512",
     "C:\\Users\\badf\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.6\\microsoft.aspnetcore.cryptography.keyderivation.6.0.6.nupkg.sha512",
     "C:\\Users\\badf\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.6\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.6.nupkg.sha512",
+    "C:\\Users\\badf\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\badf\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.6\\microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
     "C:\\Users\\badf\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.6\\microsoft.entityframeworkcore.abstractions.6.0.6.nupkg.sha512",
     "C:\\Users\\badf\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.6\\microsoft.entityframeworkcore.analyzers.6.0.6.nupkg.sha512",
