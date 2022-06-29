@@ -10,5 +10,6 @@ namespace ShowHouse.Application.DTO
         public string Name {get; private set;}
         [Required(ErrorMessage = "Address os required")]
         public string Address {get; private set;}
+        public bool Status {get; private set;}
     }
 }

@@ -19,6 +19,7 @@ namespace ShowHouse.Application.DTO
         public int StyleId {get; private set;}
         [Required(ErrorMessage = "Show house where the event will happen is required")]
         public int ShowHouseId {get; set;}
+        public bool Status {get; private set;}
 
     }
 }
