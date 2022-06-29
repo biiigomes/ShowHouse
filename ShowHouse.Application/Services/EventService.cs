@@ -1,4 +1,5 @@
 using AutoMapper;
+using MediatR;
 using ShowHouse.Application.DTO;
 using ShowHouse.Application.Interfaces;
 using ShowHouse.Domain.Entities;
@@ -25,8 +26,9 @@ namespace ShowHouse.Application.Services
 
         public async Task<IEnumerable<EventDTO>> GetEvents()
         {
-            var eventEntity = await _eventRepository.GetEventsAsync();
-            return _mapper.Map<IEnumerable<EventDTO>>(eventEntity);
+            var eventsEntity = await _eventRepository.GetEventsAsync();
+            return _mapper.Map<IEnumerable<EventDTO>>(eventsEntity);
+
         }
 
         public async Task Add(EventDTO eventDTO)

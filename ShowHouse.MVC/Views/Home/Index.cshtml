@@ -1,8 +1,57 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<ShowHouse.Application.DTO.EventDTO>
+@{
+    ViewData["Title"] = "Show House";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<br />
+<div class="container">
+    <table class="table table-striped">
+        <thread>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Capacity)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TicketValue)
+                </th>
+                @* <th>
+                    @Html.DisplayNameFor(model => model.ShowHouseId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.StyleId)
+                </th> *@
+            </tr>
+        </thread>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Capacity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TicketValue)
+                    </td>
+                    @* <td>
+                        @Html.DisplayFor(modelItem => item.ShowHouseId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StyleId) 
+                    </td> *@
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>
