@@ -21,9 +21,11 @@ namespace ShowHouse.IoC
 
             services.AddScoped<IShowHouseEventRepository, ShowHouseRepository>();
             services.AddScoped<IEventRepository, EventRepository>();
+            services.AddScoped<IStyleRepository, StyleRepository>();
 
             services.AddScoped<IShowHouseEventService, ShowHouseEventService>();
             services.AddScoped<IEventService, EventService>();
+            services.AddScoped<IStyleService, StyleService>();
 
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 

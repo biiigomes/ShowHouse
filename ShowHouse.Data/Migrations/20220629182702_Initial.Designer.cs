@@ -11,7 +11,7 @@ using ShowHouse.Data.Context;
 namespace ShowHouse.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220628181442_Initial")]
+    [Migration("20220629182702_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -234,9 +234,6 @@ namespace ShowHouse.Data.Migrations
                     b.Property<int>("ShowHouseId")
                         .HasColumnType("int");
 
-                    b.Property<bool>("Status")
-                        .HasColumnType("tinyint(1)");
-
                     b.Property<int>("StyleId")
                         .HasColumnType("int");
 
@@ -269,9 +266,6 @@ namespace ShowHouse.Data.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
-                    b.Property<bool>("Status")
-                        .HasColumnType("tinyint(1)");
-
                     b.HasKey("Id");
 
                     b.ToTable("ShowHouseEvents");
@@ -281,22 +275,19 @@ namespace ShowHouse.Data.Migrations
                         {
                             Id = 1,
                             Address = "São Paulo - Alphaville",
-                            Name = "Clássica",
-                            Status = true
+                            Name = "Clássica"
                         },
                         new
                         {
                             Id = 2,
                             Address = "São Paulo - Limoeiro",
-                            Name = "Rock",
-                            Status = true
+                            Name = "Rock"
                         },
                         new
                         {
                             Id = 3,
                             Address = "Curitiba - Água Verde",
-                            Name = "Pop",
-                            Status = true
+                            Name = "Pop"
                         });
                 });
 

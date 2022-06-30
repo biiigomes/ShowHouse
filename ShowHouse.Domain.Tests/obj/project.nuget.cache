@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rrUljoWx43ksbgI+D6vmrg4/26rAgI5g38dsClhs5GBNlXssRzw7rzG50BCf33rTTC6WDUtfIj98JFO3ws7E7A==",
+  "dgSpecHash": "hPgzwRXGoTT8lx0SOe6LW8ITRw8DFibc4awvIOJG+EWJnyjaWi3TkQ2eheOMufVYI/uExtcZmOVB7XwuO+haWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Domain.Tests\\ShowHouse.Domain.Tests.csproj",
+  "projectFilePath": "c:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Domain.Tests\\ShowHouse.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\badf\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\badf\\.nuget\\packages\\fluentassertions\\6.7.0\\fluentassertions.6.7.0.nupkg.sha512",

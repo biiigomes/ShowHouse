@@ -5,11 +5,12 @@ namespace ShowHouse.Application.DTO
 {
     public class ShowHouseEventDTO
     {
-        public int Id {get; private set;}
+        public int Id {get; set;}
         [Required(ErrorMessage = "Name is required")]
-        public string Name {get; private set;}
-        [Required(ErrorMessage = "Address os required")]
-        public string Address {get; private set;}
-        public bool Status {get; private set;}
+        [MinLength(3)]
+        public string Name {get; set;}
+        [Required(ErrorMessage = "Address is required")]
+        [MinLength(3)]
+        public string Address {get; set;}
     }
 }

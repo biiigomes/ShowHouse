@@ -10,7 +10,7 @@ public class EventTests
     public void CreateEvent_ValidValues()
     {
         //Arrange
-        Action action = () => new Event(1, "São Paulo", 50, "21/10/2022", 150.00, true);
+        Action action = () => new Event(1, "São Paulo", 50, "21/10/2022", 150.00, 1, 1);
         //Act
         action.Should()
         //Assert
@@ -22,7 +22,7 @@ public class EventTests
     public void CreateEvent_InvalidId()
     {
         //Arrange
-        Action action = () => new Event(0, "São Paulo", 50, "21/10/2022", 150.00, true);
+        Action action = () => new Event(0, "São Paulo", 50, "21/10/2022", 150.00, 1, 1);
         //Act
         action.Should()
         //Assert
@@ -35,7 +35,7 @@ public class EventTests
     public void CreateEvent_Invalidname()
     {
         //Arrange
-        Action action = () => new Event(1, null, 50, "21/10/2022",150.00, true);
+        Action action = () => new Event(1, null, 50, "21/10/2022",150.00, 1, 1);
         //Act
         action.Should()
         //Assert
@@ -48,7 +48,7 @@ public class EventTests
     public void CreateEvent_InvalidCapacity()
     {
         //Arrange
-        Action action = () => new Event(1, "São Paulo", 0, "21/10/2022", 150.00, true);
+        Action action = () => new Event(1, "São Paulo", 0, "21/10/2022", 150.00, 1, 1);
         //Act
         action.Should()
         //Assert
@@ -61,7 +61,7 @@ public class EventTests
     public void CreateEvent_InvalidDate()
     {
         //Arrange
-        Action action = () => new Event(1, "São Paulo", 0, null, 150.00, true);
+        Action action = () => new Event(1, "São Paulo", 0, null, 150.00, 1, 1);
         //Act
         action.Should()
         //Assert
@@ -74,24 +74,11 @@ public class EventTests
     public void CreateEvent_InvalidValue()
     {
         //Arrange
-        Action action = () => new Event(1, "São Paulo", 50, "21/10/2022", 0, true);
+        Action action = () => new Event(1, "São Paulo", 50, "21/10/2022", 0, 1, 1);
         //Act
         action.Should()
         //Assert
            .Throw<ShowHouse.Domain.Validation.DomainExceptionValidation>()
              .WithMessage("Invalid value. Value is required.");
-    }
-
-    [Fact(DisplayName = "Event: Invalid status")]
-    [Trait("Categoria", "InvalidStatus")]
-    public void CreateEvent_InvalidStatus()
-    {
-        //Arrange
-        Action action = () => new Event(1, "São Paulo", 50,  "21/10/2022", 150.00, false);
-        //Act
-        action.Should()
-        //Assert
-           .Throw<ShowHouse.Domain.Validation.DomainExceptionValidation>()
-             .WithMessage("Invalid status. Status is required.");
     }
 }

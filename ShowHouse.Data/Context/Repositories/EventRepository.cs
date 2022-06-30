@@ -12,7 +12,7 @@ namespace ShowHouse.Data.Context.Repositories
         {
             _eventContext = context;
         }
-
+ 
         public async Task<Event> CreateAsync(Event events)
         {
             _eventContext.Add(events);

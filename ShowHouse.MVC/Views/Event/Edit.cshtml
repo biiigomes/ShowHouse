@@ -1,0 +1,48 @@
+@model ShowHouse.Application.DTO.EventDTO
+
+<h3>Edit Event</h3>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div class="form-group">
+                <label asp-for="Name" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <label asp-for="Capacity" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Capacity" class="form-control" />
+                <span asp-validation-for="Capacity" class="text-danger"></span>
+            </div>
+            <label asp-for="Date" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <label asp-for="TicketValue" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="TicketValue" class="form-control" />
+                <span asp-validation-for="TicketValue" class="text-danger"></span>
+            </div>
+            <label asp-for="ShowHouseId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <select asp-for="ShowHouseId" class="form-control" asp-items="ViewBag.ShowHouseId"></select>
+            </div>
+            <label asp-for="StyleId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <select asp-for="StyleId" class="form-control" asp-items="ViewBag.StyleId"></select>
+            </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to list</a>
+</div

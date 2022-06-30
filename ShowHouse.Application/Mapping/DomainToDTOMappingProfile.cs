@@ -10,6 +10,7 @@ namespace ShowHouse.Application.Mapping
         {
             CreateMap<ShowHouseEvent, ShowHouseEventDTO>().ReverseMap();
             CreateMap<Event, EventDTO>().ReverseMap();
+            CreateMap<Style, StyleDTO>().ReverseMap();
         }
     }
 }

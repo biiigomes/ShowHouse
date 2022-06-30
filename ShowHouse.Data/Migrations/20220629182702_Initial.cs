@@ -76,8 +76,7 @@ namespace ShowHouse.Data.Migrations
                     Name = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Address = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
-                    Status = table.Column<bool>(type: "tinyint(1)", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
                 {
@@ -243,8 +242,7 @@ namespace ShowHouse.Data.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     TicketValue = table.Column<double>(type: "double", precision: 10, scale: 2, nullable: false),
                     StyleId = table.Column<int>(type: "int", nullable: false),
-                    ShowHouseId = table.Column<int>(type: "int", nullable: false),
-                    Status = table.Column<bool>(type: "tinyint(1)", nullable: false)
+                    ShowHouseId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -266,12 +264,12 @@ namespace ShowHouse.Data.Migrations
 
             migrationBuilder.InsertData(
                 table: "ShowHouseEvents",
-                columns: new[] { "Id", "Address", "Name", "Status" },
+                columns: new[] { "Id", "Address", "Name" },
                 values: new object[,]
                 {
-                    { 1, "São Paulo - Alphaville", "Clássica", true },
-                    { 2, "São Paulo - Limoeiro", "Rock", true },
-                    { 3, "Curitiba - Água Verde", "Pop", true }
+                    { 1, "São Paulo - Alphaville", "Clássica" },
+                    { 2, "São Paulo - Limoeiro", "Rock" },
+                    { 3, "Curitiba - Água Verde", "Pop" }
                 });
 
             migrationBuilder.InsertData(

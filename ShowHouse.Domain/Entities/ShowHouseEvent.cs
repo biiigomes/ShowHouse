@@ -8,23 +8,21 @@ namespace ShowHouse.Domain.Entities
     {
         public string Name {get; private set;}
         public string Address {get; private set;}
-        public bool Status {get; private set;}
         public ICollection<Event> Events {get; set;}
-        public ShowHouseEvent(string name, string address, bool status)
+        public ShowHouseEvent(string name, string address)
         {
-            ValidateDomain(name, address, status);
+            ValidateDomain(name, address);
         }
         public ShowHouseEvent(
             int id,
             string name,
-            string address,
-            bool status)
+            string address)
         {
-            DomainExceptionValidation.When(id < 1, "Invalid Id value.");
+            DomainExceptionValidation.When(id < 0, "Invalid Id value.");
             Id = id;
-            ValidateDomain(name, address, status);
+            ValidateDomain(name, address);
         }
-        public void ValidateDomain(string name, string address, bool status)
+        public void ValidateDomain(string name, string address)
         {
             DomainExceptionValidation.When(string.IsNullOrEmpty(name), 
                     "Invalid name. The name is required.");
@@ -33,10 +31,6 @@ namespace ShowHouse.Domain.Entities
             DomainExceptionValidation.When(string.IsNullOrEmpty(address),
                     "Invalid address. Address is required.");
             Address = address;
-
-            DomainExceptionValidation.When(status != true, 
-                    "Invalid status. Status is required.");
-            Status = status;
         }
     }
 }

@@ -10,9 +10,9 @@ namespace ShowHouse.Data.Context
             : base(options)
         {
         }  
-        public DbSet<ShowHouseEvent>? ShowHouseEvents {get; set;}
-        public DbSet<Event>? Events {get; set;}
-        public DbSet<Style>? Styles {get; set;}
+        public DbSet<ShowHouseEvent> ShowHouseEvents {get; set;}
+        public DbSet<Event> Events {get; set;}
+        public DbSet<Style> Styles {get; set;}
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

@@ -14,27 +14,25 @@ namespace ShowHouse.Domain.Entities
         public Style Style {get; set;}
         public int ShowHouseId {get; set;}
         public ShowHouseEvent ShowHouse {get; set;}
-        public bool Status {get; set;}
 
-        public Event(string name, int capacity, string date, double ticketValue, int styleId, int showHouseId, bool status){
-            ValidateDomain(name, capacity, date, ticketValue, styleId, showHouseId, status);
+        public Event(string name, int capacity, string date, double ticketValue, int styleId, int showHouseId){
+            ValidateDomain(name, capacity, date, ticketValue, styleId, showHouseId);
         }
-        public Event(int id, string name, int capacity, string date, double ticketValue, int styleId, int showHouseId, bool status){
-            DomainExceptionValidation.When(id < 1, "Invalid Id value.");
+        public Event(int id, string name, int capacity, string date, double ticketValue, int styleId, int showHouseId){
+            DomainExceptionValidation.When(id < 0, "Invalid Id value.");
             Id = id;
 
-            ValidateDomain(name, capacity, date, ticketValue,  styleId, showHouseId, status);
+            ValidateDomain(name, capacity, date, ticketValue,  styleId, showHouseId);
         } 
 
-        public void Update(string name, int capacity, string date, double ticketValue, int styleId, int showHouseId, bool status)
+        public void Update(string name, int capacity, string date, double ticketValue, int styleId, int showHouseId)
         {
-           ValidateDomain(name, capacity, date, ticketValue,  styleId, showHouseId, status);
+           ValidateDomain(name, capacity, date, ticketValue,  styleId, showHouseId);
            StyleId = styleId;
            ShowHouseId = showHouseId;
-           
         }
 
-        public void ValidateDomain(string name, int capacity, string date, double ticketValue,  int styleId, int showHouseId, bool status){
+        public void ValidateDomain(string name, int capacity, string date, double ticketValue,  int styleId, int showHouseId){
             DomainExceptionValidation.When(string.IsNullOrEmpty(name),
                   "Invalid event. Place is required.");
             Name = name;
@@ -51,9 +49,7 @@ namespace ShowHouse.Domain.Entities
                   "Invalid value. Value is required.");
             TicketValue = ticketValue;
 
-            DomainExceptionValidation.When(status != true,
-                  "Invalid status. Status is required.");
-            Status = status;
+
 
         }
     }
