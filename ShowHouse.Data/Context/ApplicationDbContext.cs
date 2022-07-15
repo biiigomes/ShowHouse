@@ -1,10 +1,11 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using ShowHouse.Data.Context.Identity;
 using ShowHouse.Domain.Entities;
 
 namespace ShowHouse.Data.Context
 {
-    public class ApplicationDbContext :  IdentityDbContext
+    public class ApplicationDbContext :  IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
