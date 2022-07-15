@@ -93,8 +93,7 @@ namespace ShowHouse.Data.Migrations
                     MusicalStyle = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ImagePath = table.Column<string>(type: "longtext", nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
-                    Status = table.Column<bool>(type: "tinyint(1)", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
                 {
@@ -274,12 +273,12 @@ namespace ShowHouse.Data.Migrations
 
             migrationBuilder.InsertData(
                 table: "Styles",
-                columns: new[] { "Id", "ImagePath", "MusicalStyle", "Status" },
+                columns: new[] { "Id", "ImagePath", "MusicalStyle" },
                 values: new object[,]
                 {
-                    { 1, "Sertanejo", "sertanejo.jpg", true },
-                    { 2, "Classica", "classica.jpg", true },
-                    { 3, "Pop", "pop.jpg", true }
+                    { 1, "sertanejo.jpg", "Sertanejo" },
+                    { 2, "classica.jpg", "Classica" },
+                    { 3, "pop.jpg", "Pop" }
                 });
 
             migrationBuilder.CreateIndex(

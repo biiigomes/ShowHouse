@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Domain\\ShowHouse.Domain.csproj",
+      "projectUniqueName": "c:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Domain\\ShowHouse.Domain.csproj",
       "projectName": "ShowHouse.Domain",
-      "projectPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Domain\\ShowHouse.Domain.csproj",
+      "projectPath": "c:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Domain\\ShowHouse.Domain.csproj",
       "packagesPath": "C:\\Users\\badf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Domain\\obj\\",
+      "outputPath": "c:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\badf\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -11,7 +11,7 @@ namespace ShowHouse.Data.Context.EntitiesConfiguration
             builder.HasKey(t => t.Id);
             builder.Property(p => p.Name).HasMaxLength(100).IsRequired();
             builder.Property(p => p.Address).HasMaxLength(100).IsRequired();
-
+            
             builder.HasData(
                 new ShowHouseEvent(1, "Clássica","São Paulo - Alphaville"),
                 new ShowHouseEvent(2, "Rock", "São Paulo - Limoeiro"),

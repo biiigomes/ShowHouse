@@ -12,12 +12,11 @@ namespace ShowHouse.Data.Context.EntitiesConfiguration
 
             builder.Property(p => p.ImagePath).IsRequired();
             builder.Property(p => p.MusicalStyle).IsRequired();
-            builder.Property(p => p.Status).IsRequired();
 
             builder.HasData(
-                new Style(1, "Sertanejo", "sertanejo.jpg", true),
-                new Style(2, "Classica", "classica.jpg", true),
-                new Style(3, "Pop","pop.jpg", true)
+                new Style(1, "Sertanejo", "sertanejo.jpg"),
+                new Style(2, "Classica", "classica.jpg"),
+                new Style(3, "Pop","pop.jpg")
             );
         }
     }

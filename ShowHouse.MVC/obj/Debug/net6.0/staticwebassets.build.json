@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iYCQDKlsLDkvKpMu/L6QDf3OiYGIhBqlwCWFhs/r+AA=",
+  "Hash": "wuI+bWzckK8XamW3c8Ab7t6pdb2DQMF8pPoKv3trTLs=",
   "Source": "ShowHouse.MVC",
   "BasePath": "_content/ShowHouse.MVC",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.MVC\\wwwroot\\image\\show.jpg",
+      "SourceId": "ShowHouse.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
+      "BasePath": "_content/ShowHouse.MVC",
+      "RelativePath": "image/show.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\show.jpg"
     },
     {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.MVC\\wwwroot\\js\\site.js",

@@ -18,7 +18,7 @@ namespace ShowHouse.Domain.Entities
             string name,
             string address)
         {
-            DomainExceptionValidation.When(id < 0, "Invalid Id value.");
+            DomainExceptionValidation.When(id <= 0, "Invalid Id value.");
             Id = id;
             ValidateDomain(name, address);
         }

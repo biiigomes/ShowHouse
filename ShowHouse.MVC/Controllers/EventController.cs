@@ -50,11 +50,14 @@ namespace ShowHouse.MVC.Controllers
         {
             if(id == null) return NotFound();
             
-            var showHouseVM = await _eventService.GetById(id);
+            var eventVM = await _eventService.GetById(id);
 
-            if(showHouseVM == null) return NotFound();
+            if(eventVM == null) return NotFound();
+                        
+            ViewBag.ShowHouseId = new SelectList(await _showHouseEvent.GetShowHouses(), "Id", "Name", eventVM.ShowHouseId);
+            ViewBag.StyleId = new SelectList(await _styleService.GetStyles(), "Id", "MusicalStyle", eventVM.StyleId);
 
-            return View(showHouseVM);
+            return View(eventVM);
         }
 
         [HttpPost]

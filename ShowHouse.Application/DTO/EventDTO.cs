@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using ShowHouse.Domain.Entities;
 
 namespace ShowHouse.Application.DTO
 {
@@ -18,8 +19,10 @@ namespace ShowHouse.Application.DTO
         public double TicketValue{get; set;}
         [Required(ErrorMessage = "Style is required")]
         public int StyleId {get; set;}
+        public Style Style {get; set;}
         [Required(ErrorMessage = "Show house where the event will happen is required")]
         public int ShowHouseId {get; set;}
+        public ShowHouseEvent ShowHouse {get; set;}
 
     }
 }

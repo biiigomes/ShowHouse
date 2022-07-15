@@ -19,7 +19,7 @@ namespace ShowHouse.Domain.Entities
             ValidateDomain(name, capacity, date, ticketValue, styleId, showHouseId);
         }
         public Event(int id, string name, int capacity, string date, double ticketValue, int styleId, int showHouseId){
-            DomainExceptionValidation.When(id < 0, "Invalid Id value.");
+            DomainExceptionValidation.When(id <= 0, "Invalid Id value.");
             Id = id;
 
             ValidateDomain(name, capacity, date, ticketValue,  styleId, showHouseId);

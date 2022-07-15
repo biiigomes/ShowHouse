@@ -6,7 +6,7 @@ namespace ShowHouse.Data.Migrations
 {
     public partial class Seed : Migration
     {
-         protected override void Up(MigrationBuilder migrationBuilder)
+        protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.Sql("INSERT INTO Events(name, capacity, date, ticketvalue, styleid, showhouseid) VALUES ('Sofrencias', 100, '21/10/2022', 150.00, 1, 3)");
             migrationBuilder.Sql("INSERT INTO Events(name, capacity, date, ticketvalue, styleid, showhouseid) VALUES ('Primavera', 50, '10/12/2022', 200.00, 2, 1)");

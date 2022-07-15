@@ -11,8 +11,8 @@ using ShowHouse.Data.Context;
 namespace ShowHouse.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220629182742_Seed")]
-    partial class Seed
+    [Migration("20220630202659_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -305,9 +305,6 @@ namespace ShowHouse.Data.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<bool>("Status")
-                        .HasColumnType("tinyint(1)");
-
                     b.HasKey("Id");
 
                     b.ToTable("Styles");
@@ -316,23 +313,20 @@ namespace ShowHouse.Data.Migrations
                         new
                         {
                             Id = 1,
-                            ImagePath = "Sertanejo",
-                            MusicalStyle = "sertanejo.jpg",
-                            Status = true
+                            ImagePath = "sertanejo.jpg",
+                            MusicalStyle = "Sertanejo"
                         },
                         new
                         {
                             Id = 2,
-                            ImagePath = "Classica",
-                            MusicalStyle = "classica.jpg",
-                            Status = true
+                            ImagePath = "classica.jpg",
+                            MusicalStyle = "Classica"
                         },
                         new
                         {
                             Id = 3,
-                            ImagePath = "Pop",
-                            MusicalStyle = "pop.jpg",
-                            Status = true
+                            ImagePath = "pop.jpg",
+                            MusicalStyle = "Pop"
                         });
                 });
 
