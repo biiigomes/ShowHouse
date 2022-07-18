@@ -2178,11 +2178,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.MVC\\ShowHouse.MVC.csproj",
+      "projectUniqueName": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\ShowHouse.MVC.csproj",
       "projectName": "ShowHouse.MVC",
-      "projectPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.MVC\\ShowHouse.MVC.csproj",
+      "projectPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\ShowHouse.MVC.csproj",
       "packagesPath": "C:\\Users\\badf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.MVC\\obj\\",
+      "outputPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\badf\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2197,8 +2197,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.IoC\\ShowHouse.IoC.csproj": {
-              "projectPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.IoC\\ShowHouse.IoC.csproj"
+            "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.IoC\\ShowHouse.IoC.csproj": {
+              "projectPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.IoC\\ShowHouse.IoC.csproj"
             }
           }
         }

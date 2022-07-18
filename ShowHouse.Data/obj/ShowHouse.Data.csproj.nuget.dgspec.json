@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Data\\ShowHouse.Data.csproj": {}
+    "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.Data\\ShowHouse.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Data\\ShowHouse.Data.csproj": {
+    "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.Data\\ShowHouse.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Data\\ShowHouse.Data.csproj",
+        "projectUniqueName": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.Data\\ShowHouse.Data.csproj",
         "projectName": "ShowHouse.Data",
-        "projectPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Data\\ShowHouse.Data.csproj",
+        "projectPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.Data\\ShowHouse.Data.csproj",
         "packagesPath": "C:\\Users\\badf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Data\\obj\\",
+        "outputPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\badf\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Domain\\ShowHouse.Domain.csproj": {
-                "projectPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Domain\\ShowHouse.Domain.csproj"
+              "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.Domain\\ShowHouse.Domain.csproj": {
+                "projectPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.Domain\\ShowHouse.Domain.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Domain\\ShowHouse.Domain.csproj": {
+    "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.Domain\\ShowHouse.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Domain\\ShowHouse.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.Domain\\ShowHouse.Domain.csproj",
         "projectName": "ShowHouse.Domain",
-        "projectPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Domain\\ShowHouse.Domain.csproj",
+        "projectPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.Domain\\ShowHouse.Domain.csproj",
         "packagesPath": "C:\\Users\\badf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Domain\\obj\\",
+        "outputPath": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\badf\\AppData\\Roaming\\NuGet\\NuGet.Config"

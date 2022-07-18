@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YgFvJu5QuVs81ceMSPAoQY4Uy69O0/K3BM1Gz6abvDo/Ro+y9LE9j1h18wcKeU6WTauDC6QSyxMbP71fE8T0iw==",
+  "dgSpecHash": "gTuos9/rU6iJF7WefhHr9TAfDBRkjIL0Kadu+15dVMv8cX+V3mfs2lLRA9UL3c9LnupRQPjc02Yn+3CNJeWe2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Data\\ShowHouse.Data.csproj",
+  "projectFilePath": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.Data\\ShowHouse.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\badf\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\badf\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

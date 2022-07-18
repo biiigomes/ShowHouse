@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xJ28zmrHlu4FaPuGgdLqBM7Jm2rdA2jYd19qqvD/ql3OeMMlSGV8FjlUiKwC/uZiUpkdpaiiRaCVWbz9GSTkIw==",
+  "dgSpecHash": "wGIEWrVvy7q+SzVwtgO8382RNJ9m/HbmHOKLsISNae8E1D1RANQ+xXUNLMcjt7TU1QqIcuobVvL6LbIciD5ZWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.IoC\\ShowHouse.IoC.csproj",
+  "projectFilePath": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.IoC\\ShowHouse.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\badf\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\badf\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

@@ -19,7 +19,10 @@
                         @Html.DisplayFor(modelItem => item.Date)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.TicketValue)
+                        R$ @Html.DisplayFor(modelItem => item.TicketValue)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Style.ImagePath)  
                     </td>
                 </tr>
             }

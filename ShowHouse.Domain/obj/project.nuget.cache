@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7jCki2JDWrSTsIDFLSXgVkmovh27rHqW+vTuD2XRPMmg8C6D3a/fr+6Yvv5oQpjqmSlfsoihX8F42AUaauTp/w==",
+  "dgSpecHash": "lQVSsFjr4bjdFnD+y845GXOUpLZg93T48RzNnNwsXTw4+FO99W8Gy1GguXjaYkqi3popwGD5xElF+AdPPwA+RA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Domain\\ShowHouse.Domain.csproj",
+  "projectFilePath": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.Domain\\ShowHouse.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -28,7 +28,7 @@ namespace ShowHouse.MVC.Controllers
             {
                 if(string.IsNullOrEmpty(model.ReturnUrl))
                 {
-                    return RedirectToAction("Index", "Event");
+                    return RedirectToAction("Home", "ShowHousePage");
                 }
                 return Redirect(model.ReturnUrl);
             }

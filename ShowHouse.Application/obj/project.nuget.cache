@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7tvjuH+d1yDKiZs1BkiY0di+flRccfk9TnQAAfvU4shMHSkTXezUi6xeyCr3jHUGsqjvCmn7sgqWt8mAl+VzEg==",
+  "dgSpecHash": "MSjTRhQnVhIS3m4WwbDnQpYIRr9S0nNTLdSw/siVrgFv3jbNRXMShLVVoNWsMHw01l2TY2hbtE8n0I9TPfN9nQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\badf\\My Private Documents\\Desafios\\MVC\\ShowHouse\\ShowHouse.Application\\ShowHouse.Application.csproj",
+  "projectFilePath": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.Application\\ShowHouse.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\badf\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\badf\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
