@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Nzk7QOAvEcZxYbpQGyFV5ouN9l3UIXOcbWVkli/YJgs=",
+  "Hash": "EfSr1+PA3dX1YMHRD7feV46TmrQVivBsjQG/ONahFKo=",
   "Source": "ShowHouse.MVC",
   "BasePath": "_content/ShowHouse.MVC",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\image\\sertanejo.jpg",
+      "SourceId": "ShowHouse.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
+      "BasePath": "_content/ShowHouse.MVC",
+      "RelativePath": "image/sertanejo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\sertanejo.jpg"
     },
     {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\image\\show.jpg",
@@ -306,23 +323,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
-    },
-    {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ShowHouse.MVC",
       "SourceType": "Discovered",
@@ -338,23 +338,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
@@ -374,23 +357,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
-    },
-    {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ShowHouse.MVC",
       "SourceType": "Discovered",
@@ -406,23 +372,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
@@ -442,23 +391,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
-    },
-    {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ShowHouse.MVC",
       "SourceType": "Discovered",
@@ -474,23 +406,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
@@ -510,23 +425,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
-    },
-    {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ShowHouse.MVC",
       "SourceType": "Discovered",
@@ -542,23 +440,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
@@ -578,23 +459,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
-    },
-    {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ShowHouse.MVC",
       "SourceType": "Discovered",
@@ -610,23 +474,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
@@ -646,23 +493,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ShowHouse.MVC",
       "SourceType": "Discovered",
@@ -678,23 +508,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -714,23 +527,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ShowHouse.MVC",
       "SourceType": "Discovered",
@@ -746,23 +542,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
@@ -782,23 +561,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ShowHouse.MVC",
       "SourceType": "Discovered",
@@ -814,23 +576,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
