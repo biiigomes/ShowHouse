@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ShowHouse.Application.DTO;
 using ShowHouse.Application.Interfaces;

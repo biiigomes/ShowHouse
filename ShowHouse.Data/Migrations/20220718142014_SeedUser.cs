@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ShowHouse.Data.Migrations
 {
-    public partial class Initial : Migration
+    public partial class SeedUser : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

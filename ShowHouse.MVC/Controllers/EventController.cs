@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ShowHouse.Application.DTO;
@@ -89,7 +90,7 @@ namespace ShowHouse.MVC.Controllers
 
             return View(eventDTO);
         }
-
+        
         [HttpPost(), ActionName("Delete")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

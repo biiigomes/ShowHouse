@@ -1,3 +1,4 @@
+using ShowHouse.Domain.Account;
 using ShowHouse.IoC;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,10 +17,21 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+using (var serviceScope = app.Services.CreateScope())
+{
+    var services = serviceScope.ServiceProvider;
+ 
+    var seed = services.GetRequiredService<ISeedUserRoleInitial>();
+ 
+    seed.SeedRoles();
+    seed.SeedUsers();
+}
 
 app.UseAuthorization();
 

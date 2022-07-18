@@ -1,0 +1,28 @@
+@model IEnumerable<ShowHouse.Application.DTO.EventDTO>
+    
+@{
+    Layout = "_LayoutAdmin";
+}
+<div class="container">
+    <table class="table table-striped">
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Capacity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TicketValue)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

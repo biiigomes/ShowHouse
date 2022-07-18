@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ShowHouse.Application.DTO.EventDTO>
+﻿
 @{
     ViewData["Title"] = "Home";
 }
@@ -7,26 +7,3 @@
     <img src="image/show.jpg", width="350", height="350",/>
 </div>
 <br />
-<div class="container">
-    <table class="table table-striped">
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Name)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Capacity)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Date)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.TicketValue)
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-</div>
