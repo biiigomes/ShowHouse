@@ -22,7 +22,7 @@
                         R$ @Html.DisplayFor(modelItem => item.TicketValue)
                     </td>
                     <td>
-                        <img src="image/@item.Style.ImagePath">  
+                        <img src="~/image/@item.Style.ImagePath", alt="@item.Style.ImagePath", width="300", height="300">  
                     </td>
                 </tr>
             }

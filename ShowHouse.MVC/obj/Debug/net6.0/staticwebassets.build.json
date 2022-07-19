@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EfSr1+PA3dX1YMHRD7feV46TmrQVivBsjQG/ONahFKo=",
+  "Hash": "MjSujRZgnSI98JTVgy/2Rb83+3zKlAGchJc9WFomOwU=",
   "Source": "ShowHouse.MVC",
   "BasePath": "_content/ShowHouse.MVC",
   "Mode": "Default",
@@ -831,23 +831,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "ShowHouse.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\",
-      "BasePath": "_content/ShowHouse.MVC",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
       "Identity": "C:\\Users\\badf\\My Private Documents\\Desafios\\ShowHouse\\ShowHouse.MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
